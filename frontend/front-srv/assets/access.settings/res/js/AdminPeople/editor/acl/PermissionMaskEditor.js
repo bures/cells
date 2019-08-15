@@ -2,7 +2,7 @@ import React from 'react'
 import Role from "../model/Role";
 import AjxpNode from 'pydio/model/node';
 import {IdmWorkspace} from 'pydio/http/rest-api';
-import classNames from 'classNames';
+import classNames from 'classnames';
 import {IconButton} from 'material-ui';
 import PydioDataModel from 'pydio/model/data-model';
 import MaskNodesProvider from './MaskNodesProvider';
