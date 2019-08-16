@@ -1,0 +1,28 @@
+go get -u github.com/kardianos/govendor
+
+go get -u -d github.com/mwitkow/go-proto-validators
+go get -u -d github.com/micro/protoc-gen-micro
+go get -u -d github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
+go get -u -d github.com/golang/protobuf/protoc-gen-go
+go get -u -d github.com/google/protobuf
+
+go install github.com/mwitkow/go-proto-validators
+
+cd $GOPATH/src/google.golang.org/genproto
+git checkout df60624c1e9b9d2973e889c7a1cff73155da81c4
+
+cd $GOPATH/src/github.com/golang/protobuf
+git checkout e09c5db296004fbe3f74490e84dcd62c3c5ddb1b
+go install github.com/golang/protobuf/protoc-gen-go
+
+cd $GOPATH/src/github.com/micro/protoc-gen-micro
+git checkout 6df366679906f8620fe2b9f9aed9c266f2c32072
+go install github.com/micro/protoc-gen-micro
+
+cd $GOPATH/src/github.com/grpc-ecosystem/grpc-gateway
+git checkout 58f78b988bc393694cef62b92c5cde77e4742ff5
+go install github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
+
+
+
+

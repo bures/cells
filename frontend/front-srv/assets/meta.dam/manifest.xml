@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta id="meta.dam" label="CONF_MESSAGE[Digital Asset Management]" description="CONF_MESSAGE[Management of folders as digital assets]">
+	<client_settings>
+		<resources>
+			<i18n namespace="meta.dam" remote="plug/meta.dam/i18n" />
+			<js file="plug/meta.dam/build/PydioDAM.js" className="PydioDAM"/>
+			<css file="plug/meta.dam/build/PydioDAM.css"/>
+		</resources>
+	</client_settings>
+	<registry_contributions>
+	</registry_contributions>
+	<dependencies>
+		<pluginClass pluginName="access.gateway"/>
+	</dependencies>
+</meta>

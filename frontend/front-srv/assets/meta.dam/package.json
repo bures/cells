@@ -1,0 +1,24 @@
+{
+  "name": "meta.dam",
+  "description": "Components for Digitam Asset Management",
+  "source_path": "js/react",
+  "main": "index.js",
+  "author": "Tomas Bures <tbures@",
+  "license": "agpl",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-babel": "~8.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-contrib-compress": "^1.5.0",
+    "grunt-browserify": "~5.3.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "node-sass": "^4.12.0"
+  }
+}
